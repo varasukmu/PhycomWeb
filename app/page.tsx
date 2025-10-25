@@ -1,23 +1,9 @@
-// app/documentation/page.tsx
 import Image from "next/image";
 
 const features = [
-  { 
-    // ใช้ Emoji ชั่วคราวแทน Icon
-    icon: '🎮', 
-    title: 'สนุกแบบเกม', 
-    text: 'TetrisArmFit เป็นแอปพลิเคชันที่ผสมผสานความสนุกของเกม Tetris เข้ากับการออกกำลังกายแขนและลำตัว',
-  },
-  { 
-    icon: '💪',
-    title: 'กระตุ้นกล้ามเนื้อ', 
-    text: 'ผู้ใช้จะต้องเคลื่อนไหวร่างกายเพื่อควบคุมบล็อกที่กำลังตกลงมา ซึ่งจะช่วยกระตุ้นกล้ามเนื้อหลายส่วน',
-  },
-  { 
-    icon: '🎯',
-    title: 'แรงจูงใจสม่ำเสมอ', 
-    text: 'จุดมุ่งหมายคือการทำให้การออกกำลังกายเป็นเรื่องน่าตื่นเต้นและสร้างแรงจูงใจในการขยับเขยื้อนร่างกายอย่างสม่ำเสมอ',
-  },
+  { icon: '🎮', title: 'เกมที่คุ้นเคย',       text: 'TetrisArmFit นำความสนุกสุดคลาสสิกของเกม Tetris มาปัดฝุ่นใหม่'},
+  { icon: '💪', title: 'ออกกำลังกายไปด้วย',  text: 'สนุกกับการเล่นเกม พร้อมเคลื่อนไหวแขนและลำตัวเพื่อควบคุมบล็อก'},
+  { icon: '🎯', title: 'ท้าทายการควบคุม',    text: 'การควบคุมแบบใหม่ เปลี่ยนแขนและลำตัวให้กลายเป็นจอยสติ๊ก'},
 ];
 
 const members = [
@@ -36,12 +22,12 @@ const resources = [
   {
     title: 'Video Presentation',  text: 'Youtube link',
     action: 'Watch Video',        color: 'red',
-    link: 'https://www.youtube.com/your-video-link',
+    link: 'https://youtu.be/dQw4w9WgXcQ?si=XbHqUFwK3qcvnhiQ',
   },
   {
     title: 'Source Code', text: 'Github Repository',
     action: 'View Code',  color: 'green',
-    link: 'https://github.com/your-repo-link',
+    link: 'https://github.com/varasukmu/PhycomWeb',
   },
 ];
 
@@ -86,7 +72,7 @@ export default function Home() {
       
       <div className="relative z-10 flex items-center justify-center p-4">
         <div id="content-container" className="w-full max-w-8xl mx-auto p-4 md:p-8">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-4 pb-4 text-black text-center border-b border-gray-300">Resource</h1>
+          <h1 className="text-3xl md:text-7xl font-extrabold mb-4 pb-4 text-black text-center border-b border-gray-300">Resource</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 pb-20">
             {resources.map((resource, index) => {
@@ -137,7 +123,7 @@ export default function Home() {
                 className="flex flex-row lg:flex-col items-center sm:items-start lg:items-center p-6 sm:p-8 bg-sky-50 rounded-xl shadow-lg flex-1 transition duration-300 hover:shadow-xl hover:scale-[1.05]"
               >
                 <div className="
-                  w-24 h-24 lg:w-24 lg:h-24 sm:w-16 sm:h-16 
+                  w-40 h-40 lg:w-40 lg:h-40 sm:w-32 sm:h-32 
                   mb-0 lg:mb-4 
                   mr-4 lg:mr-0 
                   rounded-full                      
