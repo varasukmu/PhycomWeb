@@ -15,7 +15,7 @@ const members = [
 
 const resources = [
   {
-    title: 'Poster',    text: 'Dowliad PDF',
+    title: 'Poster',    text: 'Dowload PDF',
     action: 'Download', color: 'blue',
     link: '/resource/poster.pdf',
   },

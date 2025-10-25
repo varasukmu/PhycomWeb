@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
 
   return (
-    <header className="absolute top-8 left-0 right-0 z-50 flex justify-center">
+    <header className="fixed top-8 left-0 right-0 z-50 flex justify-center">
       <nav className="bg-sky-300 px-4 sm:px-8 py-4 w-11/12 lg:w-3/4 rounded-xl shadow-2xl">
         <div className="flex justify-between items-center font-sans">
           
