@@ -6,11 +6,11 @@ import Image from 'next/image';
 
 const hardwareItems = [
     {   title: 'Microcontroller', name: 'Arduino Uno R4 WiFi',  imageSrc: '/images/ardu.jpg',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
+        description: 'บอร์ด Microcontroller หลักทึ่ใช้ในงานนี้',
     },{ title: 'Sensor :',  name: 'GY-521 MPU-6050 MPU6050 3 Axis Accelerometer Gyroscope',    imageSrc: '/images/mpu.jpg',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
+        description: 'Gyroscope , หาความเร่งในแต่ละทิศทาง สำหรับใช้ในการควบคุมทิศทางของ Tetris',
     },{ title: 'Display Result',  name: 'MAX7219 LED Dot Matrix Display',      imageSrc: '/images/led.jpg',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
+        description: 'ใช้แสดงผลขณะเล่นเกม ',
     },
 ];
 
@@ -117,26 +117,19 @@ export default function DocumentationPage() {
                     <div className="flex flex-col space-y-8">
                         <div className="bg-green-50 p-8 rounded-xl shadow-lg border-l-8 border-green-500">
                             <h2 className="text-3xl font-bold mb-3 text-green-700">Input (การรับข้อมูล)</h2>
-                            <p className="text-2xl text-gray-700">Lorem ipsum dolor sit amet consectetur 
-                                adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus 
-                                ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+                            <p className="text-2xl text-gray-700">รับทิศทางการเคลื่อนไหวของผู้เล่นจาก Gyroscope</p>
                         </div>
                         <div className="bg-yellow-50 p-8 rounded-xl shadow-lg border-l-8 border-yellow-500">
                             <h2 className="text-3xl font-bold mb-3 text-yellow-700">Processing (การประมวลผล)</h2>
-                            <p className="text-2xl text-gray-700">Lorem ipsum dolor sit amet consectetur 
-                                adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus 
-                                ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p> 
+                            <p className="text-2xl text-gray-700">เปลี่ยนทิศทางการเคลื่อนไหวให้เป็นการควบคุมเกม</p> 
                         </div>
                         <div className="bg-red-50 p-8 rounded-xl shadow-lg border-l-8 border-red-500">
                             <h2 className="text-3xl font-bold mb-3 text-red-700">Output (การแสดงผล)</h2>
-                            <p className="text-2xl text-gray-700">Lorem ipsum dolor sit amet consectetur 
-                                adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus 
-                                ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>  
+                            <p className="text-2xl text-gray-700">แสดงผลเกม Tetris ที่กำลังเล่นอยู่</p>  
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 }
