@@ -25,14 +25,14 @@ export default function DocumentationPage() {
         <div className="relative font-sans min-h-screen">
             
             <div className="relative z-10 flex items-center justify-center p-2 pt-20 md:pt-40">
-                <div id="content-container" className="w-full max-w-7xl mx-auto p-4 mt-10 md:p-8 bg-white/80 rounded-xl shadow-lg">
+                <div id="content-container" className="w-full max-w-7xl mx-auto p-4 mt-10 md:p-8 bg-white/70 rounded-xl shadow-lg">
                     <h1 className="text-4xl md:text-6xl font-black mb-6 pb-4 text-gray-800 text-center border-b-4 border-blue-500/50 ">Abstract</h1>
                     <div className="space-y-1 text-center">
                         <p className="text-2xl text-gray-700 font-medium leading-relaxed">
-                            <b>TetrisArmFit</b> คือโปรเจกต์ที่จะเปลี่ยนเกม Tetris สุดคลาสสิกที่ใคร ๆ ก็รู้จัก มาทำให้อยู่ในรูปแบบใหม่
+                            <b>TetrisArmFit</b> คือโปรเจกต์ที่จะเปลี่ยนเกมเก่าอย่าง Tetris มาทำให้อยู่ในรูปแบบใหม่
                         </p>
                         <p className="text-2xl text-gray-700 font-medium leading-relaxed">
-                            โดยใช้ <b>Microcontroller</b> เข้ามาช่วยให้อยู่ในรูปของการเล่นเกมพรัอมกับการออกกำลังกาย
+                            โดยใช้ <b>Microcontroller</b> เข้ามาช่วยทำให้อยู่ในรูปของการเล่นเกมพรัอมกับการออกกำลังกาย
                         </p>
                         <p className="text-2xl text-gray-700 font-medium leading-relaxed">
                             เราจะเปลี่ยนรูปแบบการเล่นเก่า ที่ใช้จอยสติ๊ก หรือวิธีต่าง ๆ  ในการควบคุม เป็นการใช้<b>แขนและตัวในการควบคุม</b>แทน
