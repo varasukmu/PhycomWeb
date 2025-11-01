@@ -27,7 +27,7 @@ const resources = [
   {
     title: 'Source Code', text: 'Github Repository',
     action: 'View Code',  color: 'green',
-    link: 'https://github.com/varasukmu/PhycomWeb',
+    link: 'https://github.com/Mstxz/tetris-armfit',
   },
 ];
 

@@ -125,7 +125,7 @@ export default function DocumentationPage() {
                         </div>
                         <div className="bg-red-50 p-8 rounded-xl shadow-lg border-l-8 border-red-500">
                             <h2 className="text-3xl font-bold mb-3 text-red-700">Output (การแสดงผล)</h2>
-                            <p className="text-2xl text-gray-700">แสดงผลเกม Tetris ที่กำลังเล่นอยู่</p>  
+                            <p className="text-2xl text-gray-700">แสดงผลเกม Tetris ที่กำลังเล่นอยู่ทาง LED Dot Matrix Display</p>  
                         </div>
                     </div>
                 </div>
