@@ -19,7 +19,7 @@ const hardwareItems = [
         description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
     },
     {
-        title: 'Display Result',  name: '8x32 LED Matrix',      imageSrc: '/images/led.jpg',
+        title: 'Display Result',  name: 'MAX7219 LED Dot Matrix Display',      imageSrc: '/images/led.jpg',
         description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
     },
 ];
