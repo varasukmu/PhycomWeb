@@ -7,7 +7,7 @@ const features = [
 ];
 
 const members = [
-  { imageSrc: '/profile/pichaya.jpg', name: 'พิชญ บาศรี', stdID: '67070114'},
+  { imageSrc: '/profile/pitchaya.jpg', name: 'พิชญ บาศรี', stdID: '67070114'},
   { imageSrc: '/profile/peerawit.jpg', name: 'พีรวิชญ์ นันท์จันทึก ', stdID: '67070122'},
   { imageSrc: '/profile/meswadee.jpg', name: 'เมษ์วดี สีดา', stdID: '67070144'},
   { imageSrc: '/profile/varaporn.jpg', name: 'วราภรณ์ สุขม่วง', stdID: '67070159'}

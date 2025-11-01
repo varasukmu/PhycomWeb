@@ -4,22 +4,12 @@
 import { useState } from 'react';
 import Image from 'next/image'; 
 
-// กำหนดข้อมูลอุปกรณ์พร้อมชื่อไฟล์รูปภาพ
 const hardwareItems = [
-    {
-        title: 'Microcontroller', name: 'Arduino Uno R4 WiFi',  imageSrc: '/images/ardu.jpg',
+    {   title: 'Microcontroller', name: 'Arduino Uno R4 WiFi',  imageSrc: '/images/ardu.jpg',
         description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
-    },
-    {
-        title: 'Sensor :',  name: 'GY-613 3-axis Accelerometer module (ADXL335)', imageSrc: '/images/gyro.jpg',
+    },{ title: 'Sensor :',  name: 'GY-521 MPU-6050 MPU6050 3 Axis Accelerometer Gyroscope',    imageSrc: '/images/mpu.jpg',
         description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
-    },
-    {
-        title: 'Sensor :',  name: 'SW-420 Vibration Sensor',    imageSrc: '/images/vibra.jpg',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
-    },
-    {
-        title: 'Display Result',  name: 'MAX7219 LED Dot Matrix Display',      imageSrc: '/images/led.jpg',
+    },{ title: 'Display Result',  name: 'MAX7219 LED Dot Matrix Display',      imageSrc: '/images/led.jpg',
         description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.',
     },
 ];
@@ -34,7 +24,6 @@ export default function DocumentationPage() {
     return (
         <div className="relative font-sans min-h-screen">
             
-            {/* Abstract Section (No change needed) */}
             <div className="relative z-10 flex items-center justify-center p-2 pt-20 md:pt-40">
                 <div id="content-container" className="w-full max-w-7xl mx-auto p-4 mt-10 md:p-8 bg-white/80 rounded-xl shadow-lg">
                     <h1 className="text-4xl md:text-6xl font-black mb-6 pb-4 text-gray-800 text-center border-b-4 border-blue-500/50 ">Abstract</h1>
@@ -52,7 +41,6 @@ export default function DocumentationPage() {
                 </div>
             </div>
             
-            {/* Hardware Section with Image Toggle (Updated) */}
             <div className="relative z-10 flex items-center justify-center p-2 py-16">
                 <div id="content-container" className="w-full max-w-7xl mx-auto p-4 md:p-8">
                     <h1 className="text-4xl md:text-6xl font-black mb-10 pb-4 text-gray-800 text-center border-b border-gray-300">Hardware Setup</h1>
@@ -61,7 +49,6 @@ export default function DocumentationPage() {
                         {hardwareItems.map((item, index) => (
                             <div 
                                 key={index} 
-                                // ใช้ flex-col และ justify-between เพื่อควบคุมการเรียงลำดับและระยะห่างภายใน
                                 className="bg-white p-8 rounded-xl shadow-xl border-l-8 border-sky-400 flex flex-col justify-between"
                             >
                                 
