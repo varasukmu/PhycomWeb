@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Image from 'next/image'; 
 
 const hardwareItems = [
-    {   title: 'Microcontroller', name: 'Arduino Uno R4 WiFi',  imageSrc: '/images/ardu.jpg',
+    {   title: 'Microcontroller', name: 'Arduino Uno R3',  imageSrc: '/images/arduino.webp',
         description: 'บอร์ด Microcontroller หลักทึ่ใช้ในงานนี้',
     },{ title: 'Sensor :',  name: 'GY-521 MPU-6050 MPU6050 3 Axis Accelerometer Gyroscope',    imageSrc: '/images/mpu.jpg',
         description: 'Gyroscope , หาความเร่งในแต่ละทิศทาง สำหรับใช้ในการควบคุมทิศทางของ Tetris',
@@ -32,7 +32,7 @@ export default function DocumentationPage() {
                             <b>TetrisArmFit</b> คือโปรเจกต์ที่จะเปลี่ยนเกมเก่าอย่าง Tetris มาทำให้อยู่ในรูปแบบใหม่
                         </p>
                         <p className="text-2xl text-gray-700 font-medium leading-relaxed">
-                            โดยใช้ <b>Microcontroller</b> เข้ามาช่วยทำให้อยู่ในรูปของการเล่นเกมพรัอมกับการออกกำลังกาย
+                            โดยใช้ <b>Microcontroller</b> เข้ามาช่วยทำให้อยู่ในรูปของการเล่นเกมพรัอมกับการออกกำลังกาย.
                         </p>
                         <p className="text-2xl text-gray-700 font-medium leading-relaxed">
                             เราจะเปลี่ยนรูปแบบการเล่นเก่า ที่ใช้จอยสติ๊ก หรือวิธีต่าง ๆ  ในการควบคุม เป็นการใช้<b>แขนและตัวในการควบคุม</b>แทน
